@@ -1,5 +1,28 @@
-*.class
-*.log
+# IDEA
+# ----
+.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# vscode
+# ----
+.vscode
+
+# metals
+# ----
+.metals
+.bsp
+
+# sbt
+# -----
+target
+
+# metals
+.metals
+
+# OS X
+# ----
+.DS_Store
