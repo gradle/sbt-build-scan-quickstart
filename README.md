@@ -8,7 +8,7 @@ It is a small Scala project that has the [Gradle Enterprise sbt plugin][manual] 
 
 sbt is expected to be installed. Please, follow [installing sbt](https://www.scala-sbt.org/1.x/docs/Setup.html) for instructions.
 
-## Create a Build Scan™
+## Create a Build Scan®
 
 Follow these simple steps to create and publish a Build Scan® on [scans.gradle.com][scans.gradle.com]:
 
@@ -28,7 +28,7 @@ Create different kinds of build scans by locally modifying this quickstart proje
 
 - Edit `src/main/scala/example/Example.scala` to introduce compile errors
 
-Alternatively, enable one of your own sbt builds to produce build scans by following the [step-by-step instructions][scans.gradle.com].
+Alternatively, enable one of your own sbt builds to produce build scans by following the [step-by-step instructions](https://scans.gradle.com/#sbt).
 
 ## Learn more
 
@@ -40,7 +40,7 @@ Talk to us on the [Gradle forum][gradle-forum].
 
 ## License
 
-The sbt Build Scan™ quickstart project is open-source software released under the [Apache 2.0 License][apache-license].
+The sbt Build Scan® quickstart project is open-source software released under the [Apache 2.0 License][apache-license].
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0.html
 [manual]: https://docs.gradle.com/enterprise/sbt-plugin
