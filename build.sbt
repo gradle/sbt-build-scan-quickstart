@@ -16,7 +16,7 @@ lazy val areTermsAccepted = sys.BooleanProp.valueIsTrue(termsAcceptedSysProp)
 
 initialize := {
   if (!areTermsAccepted) {
-    sLog.value.warn(s"To publish a Build Scan on this project start sbt with `-D$termsAcceptedSysProp=true`. By doing so, you accept the Gradle Terms of Service first: https://gradle.com/terms-of-service")
+    sLog.value.warn(s"To publish a Build Scan® on this project start sbt with `-D$termsAcceptedSysProp=true`. By doing so, you accept the Gradle Terms of Service: https://gradle.com/terms-of-service")
     sys.exit(1)
   }
 }
