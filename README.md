@@ -10,10 +10,10 @@ sbt is expected to be installed. Please, follow [installing sbt](https://www.sca
 
 ## Create a Build Scan™
 
-Follow these simple steps to create and publish a Build Scan® on [scans.gradle.com][scans.gradle.com]:
+Follow these simple steps to create and publish a Build Scan® on [scans.gradle.com][scans.gradle.com]. By proceeding you are accepting the [Gradle Terms of Service][terms-of-service].
 
 1. Clone this project
-1. Run `sbt package`
+2. Run `sbt -Dgradle.terms-of-service.accept=true package`
 
 The build should end with something similar to:
 
