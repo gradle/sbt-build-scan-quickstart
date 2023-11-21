@@ -1,1 +1,1 @@
-addSbtPlugin("com.gradle" % "sbt-gradle-enterprise" % "0.10")
+addSbtPlugin("com.gradle" % "sbt-gradle-enterprise" % "0.10.1")
