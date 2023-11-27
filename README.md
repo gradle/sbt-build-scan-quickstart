@@ -1,8 +1,8 @@
 # sbt Build Scan® quickstart
 
-This is an example project that you can use to experience the [Build Scan® service of Gradle Enterprise][gradle.com].
+This is an example project that you can use to experience the [Build Scan® service of Develocity][gradle.com].
 
-It is a small Scala project that has the [Gradle Enterprise sbt plugin][manual] already applied.
+It is a small Scala project that has the [Develocity sbt plugin][manual] already applied.
 
 ## Prerequisite
 
@@ -32,7 +32,7 @@ Alternatively, enable one of your own sbt builds to produce build scans by follo
 
 ## Learn more
 
-Read the [Gradle Enterprise sbt plugin User Manual][manual] to learn more about the Build Scan® service of Gradle Enterprise and the Gradle Enterprise sbt plugin.
+Read the [Develocity sbt plugin User Manual][manual] to learn more about the Build Scan® service of Develocity and the Develocity sbt plugin.
 
 ## Need help?
 
