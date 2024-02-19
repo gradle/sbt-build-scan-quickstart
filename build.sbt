@@ -1,4 +1,4 @@
-Global / gradleEnterpriseConfiguration :=
+ThisBuild / gradleEnterpriseConfiguration :=
     GradleEnterpriseConfiguration(
       buildScan = BuildScan(
         termsOfService = Some(url("https://gradle.com/terms-of-service") -> areTermsAccepted)))
