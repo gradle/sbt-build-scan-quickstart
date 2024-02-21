@@ -10,10 +10,11 @@ sbt is expected to be installed. Please, follow [installing sbt](https://www.sca
 
 ## Create a Build Scan®
 
-Follow these simple steps to create and publish a Build Scan® on [scans.gradle.com][scans.gradle.com]. By proceeding you are accepting the [Gradle Terms of Service][terms-of-service].
+Follow these simple steps to create and publish a Build Scan® on [scans.gradle.com][scans.gradle.com].
 
 1. Clone this project
-2. Run `sbt -Dgradle.terms-of-service.accept=true package`
+2. Run `sbt test`
+3. Agree to the [Terms of Service][terms-of-service] on the command line
 
 The build should end with something similar to:
 
@@ -27,6 +28,7 @@ Follow the link shown at the end of the build to view your Build Scan® on [scan
 Create different kinds of build scans by locally modifying this quickstart project. Here are some ideas:
 
 - Edit `src/main/scala/example/Example.scala` to introduce compile errors
+- Edit `src/test/scala/example/ExampleTest.scala` to introduce test failures
 
 Alternatively, enable one of your own sbt builds to produce build scans by following the [step-by-step instructions](https://scans.gradle.com/#sbt).
 
