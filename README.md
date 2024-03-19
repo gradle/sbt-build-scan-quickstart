@@ -14,7 +14,7 @@ Follow these simple steps to create and publish a Build Scan® on [scans.gradle.
 
 1. Clone this project
 2. Run `sbt test`
-3. Agree to the [Terms of Service][terms-of-service] on the command line
+3. Agree to the [Terms of Use][terms-of-use] on the command line
 
 The build should end with something similar to:
 
@@ -47,6 +47,6 @@ The sbt Build Scan® quickstart project is open-source software released under t
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0.html
 [manual]: https://docs.gradle.com/enterprise/sbt-plugin
 [gradle.com]: https://www.gradle.com
-[terms-of-service]: https://gradle.com/terms-of-service
+[terms-of-use]: https://gradle.com/help/legal-terms-of-use
 [scans.gradle.com]: https://scans.gradle.com
 [gradle-forum]: https://discuss.gradle.org/c/help-discuss/scans
