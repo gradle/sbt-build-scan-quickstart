@@ -20,8 +20,9 @@
 # -----
 target
 
-# metals
-.metals
+# hydra
+# -----
+.hydra
 
 # OS X
 # ----
