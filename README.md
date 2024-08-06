@@ -45,7 +45,7 @@ Talk to us on the [Gradle forum][gradle-forum].
 The sbt Build Scan® quickstart project is open-source software released under the [Apache 2.0 License][apache-license].
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0.html
-[manual]: https://docs.gradle.com/enterprise/sbt-plugin
+[manual]: https://docs.gradle.com/develocity/sbt-plugin
 [gradle.com]: https://www.gradle.com
 [terms-of-use]: https://gradle.com/help/legal-terms-of-use
 [scans.gradle.com]: https://scans.gradle.com
