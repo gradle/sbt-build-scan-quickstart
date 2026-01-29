@@ -1,1 +1,1 @@
-addSbtPlugin("com.gradle" % "sbt-develocity" % "1.4.1")
+addSbtPlugin("com.gradle" % "sbt-develocity" % "1.4.4")
