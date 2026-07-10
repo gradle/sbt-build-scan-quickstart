@@ -2,5 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>gradle/renovate-agent//presets/dv.json5"
+  ],
+  "packageRules": [
+    {
+      // The Develocity sbt plugin only supports sbt 1.x, so stay on the 1.x line.
+      "matchPackageNames": ["sbt/sbt"],
+      "allowedVersions": "<2.0.0"
+    }
   ]
 }
